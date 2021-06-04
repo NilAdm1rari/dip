@@ -1,0 +1,96 @@
+#allwh_pole{
+    margin: 30px;
+}
+.selectors{
+    display: inline-block;
+}
+.selectors label{
+    margin-top: 20px;
+}
+h3{
+    margin-top: 20px;
+}
+.selection{
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.selection .col{
+    padding-top: 20px;
+}
+.selection img{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.icon {
+	margin: 4px 0px 0px 4px;
+	padding: 0;
+}
+.calkminipics img:hover {
+	opacity: 0.8;
+}
+.wh {
+	width:40px;text-align: center;
+}
+
+.input_h,.input_bb_w,.input_w  {
+	text-align: center;
+	font-size: 10px;
+}
+.input_bb_w {
+	padding-top:4px;
+	vertical-align:top;
+
+}
+#win_div_h, #fr_div_h, #gl_div_h {
+	padding-left:4px;
+}
+#fr_div_h_l {
+	padding-right:5px;
+}
+
+#dr_div_h {
+	padding-right:6px;
+}
+
+.table_calc div img {
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+}
+.table_calc div img:hover {
+	opacity:0.8;
+}
+
+.page-id-40 h3{
+	color: #0072bc;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    letter-spacing: .5px;
+}
+
+.page-id-40 legend{
+	line-height: 1.2;
+	font-size: 20px;
+	font-weight: 600;
+    margin: 20px 0;
+}
+
+.center input{
+	margin-bottom: 15px;
+}
+.box-warning{
+	margin-bottom: 20px;
+}
+.box-content{
+    font-weight: bold;
+}
+.box-info{
+	padding-top: 60px;
+	text-align: center;
+	font-weight: bold;
+}
+.center h2{
+	margin-bottom: 10px;
+}
