@@ -113,64 +113,76 @@
         }
 
         function smena_img(a, b) {
+
             switch (b) {
                 case 0:
                     if (0 == a) {
-                        w1.src = okna[w1_img];
-                        w1_img < okna.length - 1 ? w1_img++ : w1_img = 0
+                        w1.src = okna[w1.w1_img];
+                        document.querySelector('#w1').src = okna[w1.w1_img];
+                        w1.w1_img < okna.length - 1 ? w1.w1_img++ : w1.w1_img = 0;
+
                     }
                     break;
                 case 1:
                     if (1 == a) {
-                        w2.src = okna2[w2_img];
-                        ww2_img < okna2.length - 1 ? w2_img++ : w2_img = 0
+                        w2.src = okna2[w2.w2_img];
+                        document.querySelector('#w2').src = okna[w2.w2_img];
+                        w2.w2_img < okna2.length - 1 ? w2.w2_img++ : w2.w2_img = 0
                     }
                     break;
                 case 2:
                     if (2 == a) {
                         w3.src = okna2[w3.w3_img];
+                        document.querySelector('#w3').src = okna[w3.w3_img];
                         w3.w3_img < okna2.length - 1 ? w3.w3_img++ : w3.w3_img = 0
                     }
                     break;
                 case 3:
                     if (3 == a) {
                         dr.src = door[dr.dr_img];
+                        document.querySelector('#dr').src = door[dr.dr_img];
                         dr.dr_img < door.length - 1 ? dr.dr_img++ : dr.dr_img = 0
                     }
                     break;
                 case 4:
                     if (4 == a) {
                         f1.src = fr_1[fr1.fr1_img];
+                        document.querySelector('#fr1').src = fr_1[f1.fr1_img];
                         f1.fr1_img < fr_1.length - 1 ? f1.fr1_img++ : f1.fr1_img = 0
                     }
                     break;
                 case 5:
                     if (5 == a) {
                         f2.src = fr_2[fr2.fr2_img];
+                        document.querySelector('#fr2').src = fr_2[f2.fr2_img];
                         f2.fr2_img < fr_2.length - 1 ? f2.fr2_img++ : f2.fr2_img = 0
                     }
                     break;
                 case 6:
                     if (6 == a) {
                         f3.src = fr_3[fr3_img];
+                        document.querySelector('#fr3').src = fr_3[f2.fr3_img];
                         f3.fr3_img < fr_3.length - 1 ? f3.fr3_img++ : f3.fr3_img = 0
                     }
                     break;
                 case 7:
                     if (7 == a) {
                         n1.src = gl[n1_img];
+                        document.querySelector('#n1').src = gl[n1_img];
                         n1.n1_img < gl.length - 1 ? n1.n1_img++ : n1.n1_img = 0
                     }
                     break;
                 case 8:
                     if (8 == a) {
                         n2.src = gl[n2_img];
+                        document.querySelector('#n2').src = gl[n2_img];
                         n2.n2_img < gl.length - 1 ? n2.n2_img++ : n2.n2_img = 0
                     }
                     break;
                 case 9:
                     if (9 == a) {
                         n3.src = gl[n3_img];
+                        document.querySelector('#n3').src = gl[n3_img];
                         n3.n3_img < gl.length - 1 ? n3.n3_img++ : n3.n3_img = 0
                     }
             }
